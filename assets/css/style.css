@@ -1,9 +1,3 @@
-/**
-* Template Name: Lonely - v2.2.0
-* Template URL: https://bootstrapmade.com/free-html-bootstrap-template-lonely/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
@@ -320,11 +314,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #fff;
+  color: #000;
 }
 
 #hero h2 {
-  color: #eee;
+  color: #000;
   margin-bottom: 10px;
   font-size: 24px;
   font-weight: 300;
@@ -1137,6 +1131,17 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #dd5a92;
+}
+
+.email-1:hover {
+  color: #dd5a92;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.email-1 {
+  color: #dd5a92;
+  text-decoration: none;
 }
 
 @-webkit-keyframes animate-loading {
